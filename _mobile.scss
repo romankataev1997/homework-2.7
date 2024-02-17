@@ -1,0 +1,156 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: calc(50% - 343px/2);
+        padding-right: calc(50% - 343px/2);
+      }
+
+    .top {
+        height: 735px;
+    
+        &__title-h1 {
+            text-align: center;
+            font-size: 32px;     
+        }
+    
+        &__title-p {
+            text-align: center;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px; 
+        }
+
+        &__title-br {
+            display: none;
+        }
+    
+        &__form {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 8px;
+            padding-top: 32px;
+            padding-bottom: 14px;
+            text-align: center;
+        }
+    }
+
+    .title-p-1 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .product-box-top {
+        padding-top: 128px;
+        padding-left: 0px;
+    
+        &__content {
+            row-gap: 32px;
+            justify-content: center;
+          }
+    }
+
+    .product {
+        width: 343px;
+    
+        &__game-1 {
+            height: 300px;
+            background-image: url(image/Game-1-mobile.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            text-decoration: none;
+        }
+    
+        &__game-2 {
+            height: 300px;
+            background-image: url(image/Game-2-mobile.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            text-decoration: none;
+        }
+    
+        &__game-3 {
+            height: 300px;
+            background-image: url(image/Game-3-mobile.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            text-decoration: none;
+        }
+    
+        &__game-name {
+            padding-right: 0px;
+  
+        }
+      }
+
+    .section {
+        height: 1221px;
+      }
+
+    .section-1 {
+        height: 653.61px;
+        display: block;
+
+        &__logo {
+            display: none;
+        }
+
+        &__logo-1 {
+            display: none;
+        }
+
+    }
+
+    .section-1__logo-mobile {
+        display: block;
+        width: 344px;
+        height: 236px;
+        margin-top: 64px;
+    }
+
+    .section-1__logo-1-mobile {
+        display: block;
+        width: 344px;
+        height: 231px;
+        margin-top: 64px;
+    }
+
+    .section-1-br {
+        display: none;
+    }
+
+    .section-1-box {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        margin-top: 51px;
+    
+        &__title-h2 {
+            text-align: center;
+            font-size: 32px;
+            width: 343px;
+      }
+
+    
+      &__title-p2 {
+        font-size: 14px;
+        width: 343px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 22px; 
+      }
+    
+      &__form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+        width: 343px;
+        padding-bottom: 0px;
+      }
+    }
+}
