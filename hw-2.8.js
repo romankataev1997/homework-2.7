@@ -10,9 +10,7 @@ const people = [
 
 //2
 function isPositive(item) {
-    if (item > 0) {
-        return item;
-    }
+    return item > 0;
 
 }
 
