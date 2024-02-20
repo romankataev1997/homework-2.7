@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><hw-2 class="7"></hw-2></title>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="top center">
+            <header class="header">
+            </header>
+            <section>
+               <h1 class="top__title-h1">Добро пожаловать<br>на мой сайт!</h1>
+               <p class="top__title-p">Вам предстоит пройти несколько увлекательных<br class="top__title-br">игр. Если готов нажимай 
+                <span class="title-p-1">поехали</span>  и 
+                <span class="title-p-1">приступай</span></p>
+                <form class="top__form" action="#">
+                    <button class="top__form-title">Поехали</button>
+                </form>   
+           </section>
+    </div>   
+        <div class="section center">
+            <div class="product-box-top center">
+                <div class="product-box-top__content">
+                    <div class="product">
+                        <a class="product__game-1" href="#"><p class="product__game-name" >Игра 1</p></a>
+                    </div>
+                    <div class="product">
+                        <a class="product__game-2" href="#"><p class="product__game-name" >Игра 2</p></a>
+                    </div>
+                    <div class="product">
+                        <a class="product__game-3" href="#"><p class="product__game-name" >Игра 3</p></a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    <section class="section-1 center">
+            <div class="section-1-box">
+                <h2 class="section-1-box__title-h2">Времена года!</h2>
+                <p class="section-1-box__title-p2">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы <br class="section-1-br"> узнаете к какому времени года он относится</p>
+                <form class="section-1-box__form" action="#">
+                    <button class="section-1-box__form-button" onclick="console.log(quessTimeOfYear());">Играть!</button>
+                </form>   
+            </div>
+            <img class="section-1__logo" src="image/logo.png" alt="">
+            <img class="section-1__logo-mobile" src="image/logo.png" alt="">
+    </section>
+    <footer class="section-1 center">
+        <img class="section-1__logo-1" src="image/logo-1.png" alt="">
+        <div class="section-1-box">
+            <h2 class="section-1-box__title-h2">Запомни слова</h2>
+            <p class="section-1-box__title-p2">При нажатии на кнопку играть, вы увидите несколько слов,  <br class="section-1-br">которые вам необходимо запомнить.</p>
+            <form class="section-1-box__form" action="#">
+                <button class="section-1-box__form-button" onclick="console.log(seasonsBtn());">Играть!</button>
+            </form>
+        </div>
+        <img class="section-1__logo-1-mobile" src="image/logo-1.png" alt="">   
+    </footer>
+
+
+    <script src="game-seasons.js"></script>
+    <script src="game-2.js"></script>
+    <script src="hw-2.8.js"></script>
+
 </body>
 </html>
