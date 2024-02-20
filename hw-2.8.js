@@ -15,9 +15,8 @@ function isPositive(item) {
 }
 
 function isMale(item) {
-    if (item.gender === 'male') {
-        return item;
-    }
+    return item.gender === 'male'; 
+
 }
 
 function filter(array, func) {
@@ -25,7 +24,7 @@ function filter(array, func) {
 
     for (let i = 0; i < array.length; i++) {
         if (func(array[i])) {
-            output.push(func(array[i]));
+            output.push(array[i]);
         }
     }
     return output;
